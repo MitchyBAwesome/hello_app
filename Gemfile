@@ -15,10 +15,7 @@ group :development, :test do
 	gem 'byebug', '3.4.0'
 	gem 'web-console', '2.0.0.beta3'
 	gem 'spring',	'1.1.3'
-end
-
-group :production do
 	gem 'capistrano', '~> 3.4.0'
-	gem 'capistrano-rails', '~> 1.1.3'
-	gem 'capistrano-rbenv', '~> 2.0.3'
+        gem 'capistrano-rails', '~> 1.1.3'
+        gem 'capistrano-rbenv', '~> 2.0.3'
 end
